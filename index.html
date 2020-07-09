@@ -14,10 +14,10 @@
         <fieldset>
             <legend> <b> Add Contact Details </b> </legend>
             <label for="name">Name:</label>
-            <input name="name" type="text" id="name">
+            <input name="name" type="text" id="name" required>
             <br> <br>
             <label for="Company">Company Name:</label>
-            <select name="Company" id="Company">
+            <select name="Company" id="Company" required>
                 <option value=""></option>
                 <option value="">PRAN-RFL GROUP</option>
                 <option value="">ACI GROUP</option>
@@ -28,12 +28,12 @@
             </select>
             <br> <br>
             <label for="title">Title:</label>
-            <input name="title" type="text" id="title">
+            <input name="title" type="text" id="title" required>
             <br> <br>
             <label for="dept">Department:</label>
-            <input name="dept" type="text" id="dept">
+            <input name="dept" type="text" id="dept" required>
             <br> <br>
-            <label for="No">Mobile No:</label>
+            <label for="No">Mobile No:</label required>
             <select name="Company" id="Company">
                 <option value=""></option>
                 <option value="Bangladesah">+088</option>
@@ -43,20 +43,20 @@
                 <option value="Japan">+81</option>
                 <option value="Maldives">+960</option>
             </select>
-            <input type="tel" name="No" id="No">
+            <input type="tel" name="No" id="No" required>
             <br> <br>
             <label for="fax">Fax:</label>
-            <input name="fax" type="text" id="fax">
+            <input name="fax" type="text" id="fax" required>
             <label for="ext">ext.</label>
             <input name="ext" type="text" id="ext">
             <br> <br>
             <label for="mail">Email:</label>
-            <input name="mail" type="email" id="mail" placeholder="@gmaiil.com">
+            <input name="mail" type="email" id="mail" placeholder="@gmaiil.com" required>
         </fieldset>
         <br> <br>
         <button type="submit">Save</button>
         <button type="submit">Save & Add another number</button>
-        <button type="submit">Cancel</button>
+        <button type="reset">Cancel</button>
     </form>
 </body>
 
